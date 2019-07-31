@@ -1,0 +1,43 @@
+body {
+    position: relative;
+    font-size: 10px;
+    color: #35374b;
+    background-color: #ccc;
+}
+
+#btn-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 45px;
+    font-size: 1.5rem;
+    border: none;
+    color: #35374b;
+    outline: none;
+    background-color: #8DE7A3;
+    border-radius: 18px;
+}
+
+#btn-start:hover {
+    color: #fff;
+    background-color: #35374b;
+    cursor: pointer;
+}
+
+.alphabet-round-box {
+    border-radius: 25px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    padding: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.score-wrap {
+    font-size: 24px;
+    font-weight: bold;
+}
